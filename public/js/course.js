@@ -41,14 +41,14 @@ const handleSaveQuestion = (event) => {
         if (labelsDropdownBtn) {
             labelsDropdownBtn.classList.add(
                 "ring-2",
-                "ring-[#F0BD66]",
-                "bg-[#FFF7E8]"
+                "ring-[#4169e1]",
+                "bg-[#e8ecf7]"
             );
             setTimeout(() => {
                 labelsDropdownBtn.classList.remove(
                     "ring-2",
-                    "ring-[#F0BD66]",
-                    "bg-[#FFF7E8]"
+                    "ring-[#4169e1]",
+                    "bg-[#e8ecf7]"
                 );
             }, 800);
             // optional: scroll into view

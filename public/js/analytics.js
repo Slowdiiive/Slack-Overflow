@@ -180,7 +180,7 @@ const renderAllAnalytics = (payload) => {
                     row.innerHTML = `
                         <span class="text-[11px] text-gray-700 w-24 truncate">${ta.name}</span>
                         <div class="flex-1 h-1.5 rounded-full bg-gray-200 overflow-hidden">
-                            <div class="h-full bg-[#F0BD66]" style="width: ${ta.answersPercent}%;"></div>
+                            <div class="h-full bg-[#4169e1]" style="width: ${ta.answersPercent}%;"></div>
                         </div>
                         <span class="text-[11px] text-gray-500 w-8 text-right">${ta.answerCount}</span>
                     `;

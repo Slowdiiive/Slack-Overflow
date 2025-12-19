@@ -111,7 +111,7 @@ const labelsCellRenderer = (params) => {
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
                         fill="currentColor"
-                        class="hover:cursor-pointer hover:text-yellow-500 size-5 text-[#F0BD66]"
+                        class="hover:cursor-pointer hover:text-yellow-500 size-5 text-[#4169e1]"
                     >
                         <path
                             fill-rule="evenodd"
@@ -138,7 +138,7 @@ const labelsCellRenderer = (params) => {
                             class="
                                 inline-flex
                                 items-center
-                                bg-[#F0BD66]
+                                bg-[#4169e1]
                                 text-white
                                 px-2
                                 py-0.5
@@ -188,7 +188,7 @@ const labelsCellRenderer = (params) => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="hover:cursor-pointer hover:text-yellow-500 size-5 text-[#F0BD66]"
+                class="hover:cursor-pointer hover:text-yellow-500 size-5 text-[#4169e1]"
             >
                 <path
                     fill-rule="evenodd"

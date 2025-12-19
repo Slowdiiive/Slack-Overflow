@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
         dots.forEach((dot, i) => {
             if (i === current) {
                 dot.classList.remove("bg-gray-300");
-                dot.classList.add("bg-[#F0BD66]");
+                dot.classList.add("bg-[#4169e1]");
             } else {
-                dot.classList.remove("bg-[#F0BD66]");
+                dot.classList.remove("bg-[#4169e1]");
                 dot.classList.add("bg-gray-300");
             }
         });

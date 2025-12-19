@@ -8,7 +8,7 @@
       <p class="text-gray-400 text-sm flex items-center gap-1">
         <a href="/">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-               fill="currentColor" class="size-4 hover:text-[#F0BD66]">
+               fill="currentColor" class="size-4 hover:text-[#4169e1]">
             <path fill-rule="evenodd"
                   d="M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z"
                   clip-rule="evenodd" />
@@ -25,7 +25,7 @@
         <span class="text-xs text-gray-500">Course</span>
         <select
           id="courseFilter"
-          class="bg-white border border-gray-300 text-sm text-gray-800 px-3 py-1.5 rounded-full shadow-sm focus:outline-none focus:ring-2 focus:ring-[#F0BD66]/70 focus:border-[#F0BD66]"
+          class="bg-white border border-gray-300 text-sm text-gray-800 px-3 py-1.5 rounded-full shadow-sm focus:outline-none focus:ring-2 focus:ring-[#4169e1]/70 focus:border-[#4169e1]"
         >
           <option value="all" {{#if (eq selectedCourse "all")}}selected{{/if}}>
             Select Course
@@ -43,7 +43,7 @@
         <span class="text-xs text-gray-500">Time range</span>
         <select
           id="timeRange"
-          class="bg-white border border-gray-300 text-sm text-gray-800 px-3 py-1.5 rounded-full shadow-sm focus:outline-none focus:ring-2 focus:ring-[#F0BD66]/70 focus:border-[#F0BD66]"
+          class="bg-white border border-gray-300 text-sm text-gray-800 px-3 py-1.5 rounded-full shadow-sm focus:outline-none focus:ring-2 focus:ring-[#4169e1]/70 focus:border-[#4169e1]"
         >
           <option value="7d"  {{#if (eq selectedRange "7d")}}selected{{/if}}>Last 7 days</option>
           <option value="30d" {{#if (eq selectedRange "30d")}}selected{{/if}}>Last 30 days</option>
@@ -81,10 +81,10 @@
         <!-- TOP SUMMARY CARDS -->
         <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-2 mb-3">
           <!-- Total TAs -->
-          <div class="rounded-2xl border border-amber-100 bg-gradient-to-br from-white to-[#FFF9EB] p-4 shadow-sm">
+          <div class="rounded-2xl border border-amber-100 bg-gradient-to-br from-white to-[#e8ecf7] p-4 shadow-sm">
             <div class="flex items-center justify-between">
               <span class="text-xs font-medium text-gray-500 uppercase tracking-wide">Total TAs</span>
-              <span class="text-[11px] text-[#D89A3D] inline-flex items-center gap-1">
+              <span class="text-[11px] text-[#2d4a9e] inline-flex items-center gap-1">
                 <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
                 Active overview
               </span>
